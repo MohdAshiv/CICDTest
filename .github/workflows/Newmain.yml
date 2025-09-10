@@ -31,7 +31,7 @@ jobs:
 
       - name: Build project
         run: mvn -B clean install
-        working-directory: ./testng-browserstack/pom.xml
+        working-directory: ./testng-browserstack
 
       - name: Run Automation Tests
         run: mvn test
