@@ -1,0 +1,1036 @@
+12:36:37.042 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+12:36:37.056 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+12:36:37.056 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+12:36:37.337 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\AAA\\SeleniumFramework\\SeleniumFramework\\CICD\\java-selenium-browserstack-main\\java-selenium-browserstack-main, user.dir=C\:\\AAA\\SeleniumFramework\\SeleniumFramework\\CICD\\java-selenium-browserstack-main\\java-selenium-browserstack-main, localrepository=C\:\\Users\\ashiv\\.m2\\repository}
+12:36:37.346 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+12:36:37.361 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+12:36:38.205 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+12:36:38.212 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 56e19dcf-f1f2-4cac-bff5-393b9305acd7
+12:36:38.213 [main] INFO  c.b.config.BrowserStackConfig - INFO
+12:36:38.256 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ashiv\.browserstack already exist
+12:36:38.272 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: C:\Users\ashiv\.browserstack\cli\binary-win-x64.exe
+12:36:41.114 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: C:\Users\ashiv\.browserstack\cli\binary-win-x64.exe
+12:36:41.115 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+12:36:41.116 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='C:\Users\ashiv\.browserstack\cli\binary-win-x64.exe' 'sdk' 'tcp'
+12:36:42.967 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=151ac489-a2a9-46ac-8b9e-015d56b93d37 listenAddress=127.0.0.1:5400
+12:36:42.967 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process started
+12:36:42.967 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process connecting {id=151ac489-a2a9-46ac-8b9e-015d56b93d37, port=5400, listen=127.0.0.1:5400}
+12:36:42.992 [main] DEBUG com.browserstack.v2.SdkCliUtils - File C:\Users\ashiv\.browserstack already exist
+12:37:07.154 [main] DEBUG com.browserstack.v2.SdkCLI - start-bin-session=bin_session_id: "151ac489-a2a9-46ac-8b9e-015d56b93d37"
+config: "{\"userName\":\"mohdashiv_FISCVG\",\"accessKey\":\"xt6x1pfGPbCASvnnxDwn\",\"buildName\":\"browserstack-build-1\",\"projectName\":\"BrowserStack Samples\",\"framework\":\"testng\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"device\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12,\"deviceName\":\"Samsung Galaxy S22 Ultra\"}],\"parallelsPerPlatform\":1,\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":true,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"C:\\\\AAA\\\\SeleniumFramework\\\\SeleniumFramework\\\\CICD\\\\java-selenium-browserstack-main\\\\java-selenium-browserstack-main\\\\log\",\"buildIdentifier\":\"#${BUILD_NUMBER}\",\"browserStackLocalOptions\":{\"localIdentifier\":\"Sep_10_1236_Ashiv_1l1t\",\"key\":\"xt6x1pfGPbCASvnnxDwn\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3NDk4ODA2IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDE1NDc5LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTkyNDg4NywidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.uZLvaGuBR2jUsGaHaXDpizzr81wPvZde27jBT6s_4gEgrAruqGQpFelRG4Plq7yoeqaPUW7mTE1QCXtbsf_ScYTsU1TUg-Jvhi6ejOlF_lAGA0gnozTs2_LNxExMYw4x2q4AA3vO1VIQHc3IJKnBWO3iPfaIiPEN4uFqt9ib5-YTiaI_9336WwcAlJ0NK2IKR1DjV8JXjzybn3RmMc82cBSCsyzkHHC1fLA4q__gOg4Imm1xvX3f1kq0OPRpl2VZghY2Xn-Nro5Xg4jDx3kqH0UJEjHtynm4kiolEsVcHo08LVlCFRWwiNcv9CAke6BONOPEAvX-C84e_Q2UpN4Rog"
+  build_hashed_id: "dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+accessibility {
+  success: true
+  options {
+    capabilities {
+      name: "accessibilityToken"
+      value: "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAxNTQ3OSwidGVzdF9ydW5faWQiOjExMjEwNDEsImExMXlfY29yZV9jb25maWciOnsiZGlzYWJsZV9hMTF5X2VuZ2luZV9jb25maWciOmZhbHNlLCJkaXNhYmxlX2ExMXlfZW5naW5lX2V4cGVyaW1lbnRhbF9ydWxlcyI6dHJ1ZSwiZG9tRm9yZ2UiOmZhbHNlLCJleGNsdWRlX3J1bGVzIjpbXSwiYWR2YW5jZWQiOmZhbHNlLCJhaSI6ZmFsc2UsImNvbG9yQ29udHJhc3RBSSI6ZmFsc2UsInVzZUV4dEN0eCI6ZmFsc2UsInJ1blR5cGVBT3B0IjpmYWxzZSwiYWxsb3dDcm9zc09yaWdpbklmcmFtZSI6ZmFsc2UsImVuYWJsZUN5cHJlc3NTUEEiOmZhbHNlfSwic2Nhbm5lcl92ZXJzaW9uIjoiNC4xNi4wLjAiLCJhZHZhbmNlZF9zY2FuX3RpbWVvdXQiOjE1LCJyY3QiOjI1LCJncm91cF9pZCI6OTkyNDg4NywiYXV0b21hdGlvbiI6dHJ1ZSwicnVubmVyIjoiQVVUIiwib3B0aW1pemF0aW9uIjp0cnVlLCJzY29yZSI6dHJ1ZSwicXVlcnlfcGFyYW1zIjpmYWxzZSwic2NvcGVfa2V5IjoxMTIxMDQxLCJwcmlvcml0aXplZCI6ZmFsc2UsImdycl96b25lIjoiIiwid2luMTM3Zml4IjpmYWxzZSwidXJsX2NvdW50IjowLCJjb25zb2xpZGF0ZV9ydWxlcyI6dHJ1ZSwiZXhwIjoxNzU3NjYwODA2fQ.Gx6x7XNIH6_KhlGi4pR87Ygo98F-28tsKKL2w-_FM3I"
+    }
+    capabilities {
+      name: "scannerVersion"
+      value: "https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.16.0.0.zip?Expires=1757660806&Signature=nInL2iJ1k-PnI5EThx~D-WnZ4FsnHbyDVyhI4ZCdMYcxje68M2erfSfj8cluHTFbcCdapeWrD0zeBOeE4qaN-gn4hAP4eRnVvfyfbwmuBSyx57VvPfdQXATj74y5K~P6DLU8PZ-6XhNM-9Ziw07d94GGGeX13EahbZdOeXHHdM89OFrod2GuYu6oRX~YLJGvzfsWzifQrarBA7TINt8kXOFXNsF0TUt1TpDp-Vcr3pNxfzAb9TryRewen5flIB0L5vV5IIONKu49pduIHkdQu9XMDk4AdEYSG6RT7jbQY1QafnSp-A3RtiOh-WVGzdHNWwi2UmRIDwr3d2qYUcsoXA__&Key-Pair-Id=KF2675ZED12I3"
+    }
+    capabilities {
+      name: "test_run_id"
+      value: "1121041"
+    }
+    capabilities {
+      name: "testhub_build_uuid"
+      value: "dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k"
+    }
+    capabilities {
+      name: "scannerProcessingTimeout"
+    }
+    scripts {
+      name: "scan"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction scanForAccessibility() {\n  const scanStartTime = performance.now();\n  const requestEvent = new CustomEvent(\'A11Y_SCAN\', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      scanStartTime,\n      readinessCheckTime: scanStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = \'A11Y_SCAN_FINISHED\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner completed the scan.\");\n    callback({ success: true, msg: \"Accessibility Automation Scanner completed the scan.\" });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to perform a scan.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  scanForAccessibility();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        scanForAccessibility();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to perform accessibility scan, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to perform accessibility scan, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "saveResults"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction saveAccessibilityResults() {\n  const saveStartTime = performance.now();\n  const requestEvent = new CustomEvent(\'A11Y_SAVE_RESULTS\', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      saveStartTime,\n      readinessCheckTime: saveStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = \'A11Y_RESULTS_SAVED\';\n\n  const responseEventListener = (response) => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner saved the test case results.\");\n    callback({ success: response?.detail?.success || false, msg: response?.detail?.msg || \'No response from Accessibility Automation Scanner\' });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to save the test case results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  saveAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        saveAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to save accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to save accessibility results, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "getResults"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResults() {\n  const requestEvent = new CustomEvent(\'A11Y_GET_RESULTS\');\n  const responseEvent = \'A11Y_RESULTS_RESPONSE\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "getResultsSummary"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResultsSummary() {\n  const requestEvent = new CustomEvent(\'A11Y_GET_RESULTS_SUMMARY\');\n  const responseEvent = \'A11Y_RESULTS_SUMMARY\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the summary of the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the summary of results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResultsSummary();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResultsSummary();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results summary, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results summary, Invalid URL.\" });\n}\n"
+    }
+    commands_to_wrap {
+      scripts_to_run: "scan"
+      scripts_to_run: "saveResults"
+      scripts_to_run: "getResults"
+      scripts_to_run: "getResultsSummary"
+    }
+  }
+  is_app_accessibility: false
+}
+session_framework: "style.color=always,basedir=C\\:\\\\AAA\\\\SeleniumFramework\\\\SeleniumFramework\\\\CICD\\\\java-selenium-browserstack-main\\\\java-selenium-browserstack-main,user.dir=C\\:\\\\AAA\\\\SeleniumFramework\\\\SeleniumFramework\\\\CICD\\\\java-selenium-browserstack-main\\\\java-selenium-browserstack-main,localrepository=C\\:\\\\Users\\\\ashiv\\\\.m2\\\\repository"
+8: "selenium"
+
+12:37:07.190 [main] DEBUG com.browserstack.v2.SdkCLI - startChild: child-process connecting
+12:37:08.501 [main] DEBUG com.browserstack.v2.SdkCLI - connect-bin-session=bin_session_id: "151ac489-a2a9-46ac-8b9e-015d56b93d37"
+config: "{\"userName\":\"mohdashiv_FISCVG\",\"accessKey\":\"xt6x1pfGPbCASvnnxDwn\",\"buildName\":\"browserstack-build-1\",\"projectName\":\"BrowserStack Samples\",\"framework\":\"testng\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"device\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12,\"deviceName\":\"Samsung Galaxy S22 Ultra\"}],\"parallelsPerPlatform\":1,\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":true,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"C:\\\\AAA\\\\SeleniumFramework\\\\SeleniumFramework\\\\CICD\\\\java-selenium-browserstack-main\\\\java-selenium-browserstack-main\\\\log\",\"buildIdentifier\":\"#${BUILD_NUMBER}\",\"browserStackLocalOptions\":{\"localIdentifier\":\"Sep_10_1236_Ashiv_1l1t\",\"key\":\"xt6x1pfGPbCASvnnxDwn\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-aps.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3NDk4ODA2IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDE1NDc5LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTkyNDg4NywidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.uZLvaGuBR2jUsGaHaXDpizzr81wPvZde27jBT6s_4gEgrAruqGQpFelRG4Plq7yoeqaPUW7mTE1QCXtbsf_ScYTsU1TUg-Jvhi6ejOlF_lAGA0gnozTs2_LNxExMYw4x2q4AA3vO1VIQHc3IJKnBWO3iPfaIiPEN4uFqt9ib5-YTiaI_9336WwcAlJ0NK2IKR1DjV8JXjzybn3RmMc82cBSCsyzkHHC1fLA4q__gOg4Imm1xvX3f1kq0OPRpl2VZghY2Xn-Nro5Xg4jDx3kqH0UJEjHtynm4kiolEsVcHo08LVlCFRWwiNcv9CAke6BONOPEAvX-C84e_Q2UpN4Rog"
+  build_hashed_id: "dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+accessibility {
+  success: true
+  options {
+    capabilities {
+      name: "accessibilityToken"
+      value: "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAxNTQ3OSwidGVzdF9ydW5faWQiOjExMjEwNDEsImExMXlfY29yZV9jb25maWciOnsiZGlzYWJsZV9hMTF5X2VuZ2luZV9jb25maWciOmZhbHNlLCJkaXNhYmxlX2ExMXlfZW5naW5lX2V4cGVyaW1lbnRhbF9ydWxlcyI6dHJ1ZSwiZG9tRm9yZ2UiOmZhbHNlLCJleGNsdWRlX3J1bGVzIjpbXSwiYWR2YW5jZWQiOmZhbHNlLCJhaSI6ZmFsc2UsImNvbG9yQ29udHJhc3RBSSI6ZmFsc2UsInVzZUV4dEN0eCI6ZmFsc2UsInJ1blR5cGVBT3B0IjpmYWxzZSwiYWxsb3dDcm9zc09yaWdpbklmcmFtZSI6ZmFsc2UsImVuYWJsZUN5cHJlc3NTUEEiOmZhbHNlfSwic2Nhbm5lcl92ZXJzaW9uIjoiNC4xNi4wLjAiLCJhZHZhbmNlZF9zY2FuX3RpbWVvdXQiOjE1LCJyY3QiOjI1LCJncm91cF9pZCI6OTkyNDg4NywiYXV0b21hdGlvbiI6dHJ1ZSwicnVubmVyIjoiQVVUIiwib3B0aW1pemF0aW9uIjp0cnVlLCJzY29yZSI6dHJ1ZSwicXVlcnlfcGFyYW1zIjpmYWxzZSwic2NvcGVfa2V5IjoxMTIxMDQxLCJwcmlvcml0aXplZCI6ZmFsc2UsImdycl96b25lIjoiIiwid2luMTM3Zml4IjpmYWxzZSwidXJsX2NvdW50IjowLCJjb25zb2xpZGF0ZV9ydWxlcyI6dHJ1ZSwiZXhwIjoxNzU3NjYwODA2fQ.Gx6x7XNIH6_KhlGi4pR87Ygo98F-28tsKKL2w-_FM3I"
+    }
+    capabilities {
+      name: "scannerVersion"
+      value: "https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.16.0.0.zip?Expires=1757660806&Signature=nInL2iJ1k-PnI5EThx~D-WnZ4FsnHbyDVyhI4ZCdMYcxje68M2erfSfj8cluHTFbcCdapeWrD0zeBOeE4qaN-gn4hAP4eRnVvfyfbwmuBSyx57VvPfdQXATj74y5K~P6DLU8PZ-6XhNM-9Ziw07d94GGGeX13EahbZdOeXHHdM89OFrod2GuYu6oRX~YLJGvzfsWzifQrarBA7TINt8kXOFXNsF0TUt1TpDp-Vcr3pNxfzAb9TryRewen5flIB0L5vV5IIONKu49pduIHkdQu9XMDk4AdEYSG6RT7jbQY1QafnSp-A3RtiOh-WVGzdHNWwi2UmRIDwr3d2qYUcsoXA__&Key-Pair-Id=KF2675ZED12I3"
+    }
+    capabilities {
+      name: "test_run_id"
+      value: "1121041"
+    }
+    capabilities {
+      name: "testhub_build_uuid"
+      value: "dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k"
+    }
+    capabilities {
+      name: "scannerProcessingTimeout"
+    }
+    scripts {
+      name: "scan"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction scanForAccessibility() {\n  const scanStartTime = performance.now();\n  const requestEvent = new CustomEvent(\'A11Y_SCAN\', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      scanStartTime,\n      readinessCheckTime: scanStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = \'A11Y_SCAN_FINISHED\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner completed the scan.\");\n    callback({ success: true, msg: \"Accessibility Automation Scanner completed the scan.\" });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to perform a scan.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  scanForAccessibility();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        scanForAccessibility();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to perform accessibility scan, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to perform accessibility scan, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "saveResults"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction saveAccessibilityResults() {\n  const saveStartTime = performance.now();\n  const requestEvent = new CustomEvent(\'A11Y_SAVE_RESULTS\', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      saveStartTime,\n      readinessCheckTime: saveStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = \'A11Y_RESULTS_SAVED\';\n\n  const responseEventListener = (response) => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner saved the test case results.\");\n    callback({ success: response?.detail?.success || false, msg: response?.detail?.msg || \'No response from Accessibility Automation Scanner\' });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to save the test case results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  saveAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        saveAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to save accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to save accessibility results, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "getResults"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResults() {\n  const requestEvent = new CustomEvent(\'A11Y_GET_RESULTS\');\n  const responseEvent = \'A11Y_RESULTS_RESPONSE\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "getResultsSummary"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResultsSummary() {\n  const requestEvent = new CustomEvent(\'A11Y_GET_RESULTS_SUMMARY\');\n  const responseEvent = \'A11Y_RESULTS_SUMMARY\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the summary of the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the summary of results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResultsSummary();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResultsSummary();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results summary, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results summary, Invalid URL.\" });\n}\n"
+    }
+    commands_to_wrap {
+      scripts_to_run: "scan"
+      scripts_to_run: "saveResults"
+      scripts_to_run: "getResults"
+      scripts_to_run: "getResultsSummary"
+    }
+  }
+  is_app_accessibility: false
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+12:37:08.514 [main] INFO  com.browserstack.v2.SdkCLI - loadBinResponse: Loading modules as per LoadBinResponse=bin_session_id: "151ac489-a2a9-46ac-8b9e-015d56b93d37"
+config: "{\"userName\":\"mohdashiv_FISCVG\",\"accessKey\":\"xt6x1pfGPbCASvnnxDwn\",\"buildName\":\"browserstack-build-1\",\"projectName\":\"BrowserStack Samples\",\"framework\":\"testng\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"device\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12,\"deviceName\":\"Samsung Galaxy S22 Ultra\"}],\"parallelsPerPlatform\":1,\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":true,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"C:\\\\AAA\\\\SeleniumFramework\\\\SeleniumFramework\\\\CICD\\\\java-selenium-browserstack-main\\\\java-selenium-browserstack-main\\\\log\",\"buildIdentifier\":\"#${BUILD_NUMBER}\",\"browserStackLocalOptions\":{\"localIdentifier\":\"Sep_10_1236_Ashiv_1l1t\",\"key\":\"xt6x1pfGPbCASvnnxDwn\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-aps.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3NDk4ODA2IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDE1NDc5LCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTkyNDg4NywidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.uZLvaGuBR2jUsGaHaXDpizzr81wPvZde27jBT6s_4gEgrAruqGQpFelRG4Plq7yoeqaPUW7mTE1QCXtbsf_ScYTsU1TUg-Jvhi6ejOlF_lAGA0gnozTs2_LNxExMYw4x2q4AA3vO1VIQHc3IJKnBWO3iPfaIiPEN4uFqt9ib5-YTiaI_9336WwcAlJ0NK2IKR1DjV8JXjzybn3RmMc82cBSCsyzkHHC1fLA4q__gOg4Imm1xvX3f1kq0OPRpl2VZghY2Xn-Nro5Xg4jDx3kqH0UJEjHtynm4kiolEsVcHo08LVlCFRWwiNcv9CAke6BONOPEAvX-C84e_Q2UpN4Rog"
+  build_hashed_id: "dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+accessibility {
+  success: true
+  options {
+    capabilities {
+      name: "accessibilityToken"
+      value: "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAxNTQ3OSwidGVzdF9ydW5faWQiOjExMjEwNDEsImExMXlfY29yZV9jb25maWciOnsiZGlzYWJsZV9hMTF5X2VuZ2luZV9jb25maWciOmZhbHNlLCJkaXNhYmxlX2ExMXlfZW5naW5lX2V4cGVyaW1lbnRhbF9ydWxlcyI6dHJ1ZSwiZG9tRm9yZ2UiOmZhbHNlLCJleGNsdWRlX3J1bGVzIjpbXSwiYWR2YW5jZWQiOmZhbHNlLCJhaSI6ZmFsc2UsImNvbG9yQ29udHJhc3RBSSI6ZmFsc2UsInVzZUV4dEN0eCI6ZmFsc2UsInJ1blR5cGVBT3B0IjpmYWxzZSwiYWxsb3dDcm9zc09yaWdpbklmcmFtZSI6ZmFsc2UsImVuYWJsZUN5cHJlc3NTUEEiOmZhbHNlfSwic2Nhbm5lcl92ZXJzaW9uIjoiNC4xNi4wLjAiLCJhZHZhbmNlZF9zY2FuX3RpbWVvdXQiOjE1LCJyY3QiOjI1LCJncm91cF9pZCI6OTkyNDg4NywiYXV0b21hdGlvbiI6dHJ1ZSwicnVubmVyIjoiQVVUIiwib3B0aW1pemF0aW9uIjp0cnVlLCJzY29yZSI6dHJ1ZSwicXVlcnlfcGFyYW1zIjpmYWxzZSwic2NvcGVfa2V5IjoxMTIxMDQxLCJwcmlvcml0aXplZCI6ZmFsc2UsImdycl96b25lIjoiIiwid2luMTM3Zml4IjpmYWxzZSwidXJsX2NvdW50IjowLCJjb25zb2xpZGF0ZV9ydWxlcyI6dHJ1ZSwiZXhwIjoxNzU3NjYwODA2fQ.Gx6x7XNIH6_KhlGi4pR87Ygo98F-28tsKKL2w-_FM3I"
+    }
+    capabilities {
+      name: "scannerVersion"
+      value: "https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.16.0.0.zip?Expires=1757660806&Signature=nInL2iJ1k-PnI5EThx~D-WnZ4FsnHbyDVyhI4ZCdMYcxje68M2erfSfj8cluHTFbcCdapeWrD0zeBOeE4qaN-gn4hAP4eRnVvfyfbwmuBSyx57VvPfdQXATj74y5K~P6DLU8PZ-6XhNM-9Ziw07d94GGGeX13EahbZdOeXHHdM89OFrod2GuYu6oRX~YLJGvzfsWzifQrarBA7TINt8kXOFXNsF0TUt1TpDp-Vcr3pNxfzAb9TryRewen5flIB0L5vV5IIONKu49pduIHkdQu9XMDk4AdEYSG6RT7jbQY1QafnSp-A3RtiOh-WVGzdHNWwi2UmRIDwr3d2qYUcsoXA__&Key-Pair-Id=KF2675ZED12I3"
+    }
+    capabilities {
+      name: "test_run_id"
+      value: "1121041"
+    }
+    capabilities {
+      name: "testhub_build_uuid"
+      value: "dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k"
+    }
+    capabilities {
+      name: "scannerProcessingTimeout"
+    }
+    scripts {
+      name: "scan"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction scanForAccessibility() {\n  const scanStartTime = performance.now();\n  const requestEvent = new CustomEvent(\'A11Y_SCAN\', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      scanStartTime,\n      readinessCheckTime: scanStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = \'A11Y_SCAN_FINISHED\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner completed the scan.\");\n    callback({ success: true, msg: \"Accessibility Automation Scanner completed the scan.\" });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to perform a scan.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  scanForAccessibility();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        scanForAccessibility();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to perform accessibility scan, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to perform accessibility scan, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "saveResults"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\nconst payloadToSend = arguments[0];\nconst middlewareStartTime = performance.now();\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction saveAccessibilityResults() {\n  const saveStartTime = performance.now();\n  const requestEvent = new CustomEvent(\'A11Y_SAVE_RESULTS\', {\n    detail: {\n      ...payloadToSend,\n      middlewareStartTime,\n      saveStartTime,\n      readinessCheckTime: saveStartTime - middlewareStartTime\n    }\n  });\n  const responseEvent = \'A11Y_RESULTS_SAVED\';\n\n  const responseEventListener = (response) => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner saved the test case results.\");\n    callback({ success: response?.detail?.success || false, msg: response?.detail?.msg || \'No response from Accessibility Automation Scanner\' });\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner to save the test case results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  saveAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        saveAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to save accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to save accessibility results, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "getResults"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResults() {\n  const requestEvent = new CustomEvent(\'A11Y_GET_RESULTS\');\n  const responseEvent = \'A11Y_RESULTS_RESPONSE\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResults();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResults();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results, Invalid URL.\" });\n}\n"
+    }
+    scripts {
+      name: "getResultsSummary"
+      command: "/* browserstack_accessibility_automation_script */\nconst callback = arguments[arguments.length - 1];\n\nfunction waitForScannerReadiness(retryCount = 100, retryInterval = 100) {\n  return new Promise((resolve, reject) => {\n    let count = 0;\n    const intervalID = setInterval(() => {\n      if (count > retryCount) {\n        clearInterval(intervalID);\n        reject(new Error(\'Accessibility Automation Scanner is not ready on the page.\'));\n      } else if (findAccessibilityAutomationElement()) {\n        clearInterval(intervalID);\n        resolve({ status: \'success\' });\n      } else {\n        count += 1;\n      }\n    }, retryInterval);\n  });\n}\n\nfunction getAccessibilityResultsSummary() {\n  const requestEvent = new CustomEvent(\'A11Y_GET_RESULTS_SUMMARY\');\n  const responseEvent = \'A11Y_RESULTS_SUMMARY\';\n\n  const responseEventListener = () => {\n    window.removeEventListener(responseEvent, responseEventListener);\n    console.info(\"Accessibility Automation Scanner provided the summary of the results.\");\n    callback(event.detail);\n  };\n\n  window.addEventListener(responseEvent, responseEventListener);\n\n  console.info(\"Requesting Accessibility Automation Scanner for the summary of results.\");\n  window.dispatchEvent(requestEvent);\n}\n\nfunction findAccessibilityAutomationElement() {\n  return document.querySelector(\'#accessibility-automation-element\');\n}\n\nconst isHttpOrHttps = /^(http|https):$/.test(window.location.protocol);\n\nif (findAccessibilityAutomationElement()) {\n  console.info(\"Scanner is already ready on the page.\");\n  getAccessibilityResultsSummary();\n} else if (isHttpOrHttps) {\n  waitForScannerReadiness()\n    .then((result) => {\n      if (result.status === \'success\') {\n        console.info(\"Scanner is now ready on the page after multiple retries.\");\n        getAccessibilityResultsSummary();\n      }\n    })\n    .catch((error) => {\n      console.error(\"Scanner is not ready on the page after multiple retries.\", error);\n      callback({ success: false, msg: \"Scanner is not ready on the page after multiple retries.\" });\n    });\n} else {\n  console.warn(\"Unable to fetch accessibility results summary, Invalid URL.\");\n  callback({ success: false, msg: \"Unable to fetch accessibility results summary, Invalid URL.\" });\n}\n"
+    }
+    commands_to_wrap {
+      scripts_to_run: "scan"
+      scripts_to_run: "saveResults"
+      scripts_to_run: "getResults"
+      scripts_to_run: "getResultsSummary"
+    }
+  }
+  is_app_accessibility: false
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+12:37:08.557 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=WebdriverModule & 151ac489-a2a9-46ac-8b9e-015d56b93d37
+12:37:08.557 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=ObservabilityModule & 151ac489-a2a9-46ac-8b9e-015d56b93d37
+12:37:08.557 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=AccessibilityModule & 151ac489-a2a9-46ac-8b9e-015d56b93d37
+12:37:08.557 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=TestHubModule & 151ac489-a2a9-46ac-8b9e-015d56b93d37
+12:37:08.587 [main] INFO  com.browserstack.v2.SdkCLI - startChild: child-process connected
+12:37:08.680 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+12:37:16.678 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+12:37:16.688 [main] INFO  com.browserstack.testOps.Listener - onStart: CLI is active
+12:37:20.093 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up testng framework
+12:37:20.096 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up selenium framework
+12:37:21.046 [TestNG-tests-2] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=-1786922862 target=LocalTest-1@1 instances=[-1786922862]
+12:37:21.046 [TestNG-tests-3] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=-1786921900 target=LocalTest-2@2 instances=[-1786921900, -1786922862]
+12:37:21.046 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=-1786923824 target=LocalTest-0@0 instances=[-1786921900, -1786923824, -1786922862]
+12:37:21.047 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=-1786923824
+12:37:21.047 [TestNG-tests-1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=-1786923824
+12:37:21.047 [TestNG-tests-3] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=-1786921900
+12:37:21.050 [TestNG-tests-2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=-1786922862
+12:37:21.053 [TestNG-tests-3] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=-1786921900
+12:37:21.054 [TestNG-tests-2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=-1786922862
+12:37:21.103 [LocalTest-2@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=-1786921900
+12:37:21.105 [LocalTest-1@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=-1786922862
+12:37:21.105 [LocalTest-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=-1786923824
+12:37:21.106 [LocalTest-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=-1786923824
+12:37:21.107 [LocalTest-0@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:21.106 [LocalTest-2@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=-1786921900
+12:37:21.107 [LocalTest-2@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:21.107 [LocalTest-1@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.PRE instance=-1786922862
+12:37:21.107 [LocalTest-1@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:21.146 [LocalTest-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:21.147 [LocalTest-2@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:21.154 [LocalTest-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:21.236 [LocalTest-2@2] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e] output={null}]
+12:37:21.259 [LocalTest-2@2] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_METHOD & hook = {hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.258001700, hook_id=aa31b0b5-c132-4075-ace9-8552aecc65ac, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}  and args = [[TestResult name=setUp status=STARTED method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e] output={null}], BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e]]
+12:37:21.263 [LocalTest-2@2] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[{hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.258001700, hook_id=aa31b0b5-c132-4075-ace9-8552aecc65ac, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]} , hooks finished={BEFORE_METHOD=[]}
+12:37:21.294 [LocalTest-0@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8] output={null}]
+12:37:21.294 [LocalTest-0@0] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_METHOD & hook = {hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.294653300, hook_id=f0ad5139-aa50-4c91-9348-fd0ca502daff, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}  and args = [[TestResult name=setUp status=STARTED method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8] output={null}], BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8]]
+12:37:21.297 [LocalTest-1@1] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa] output={null}]
+12:37:21.297 [LocalTest-0@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[{hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.294653300, hook_id=f0ad5139-aa50-4c91-9348-fd0ca502daff, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]} , hooks finished={BEFORE_METHOD=[]}
+12:37:21.304 [LocalTest-1@1] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_METHOD & hook = {hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.303175400, hook_id=b1761033-814f-4532-a218-39903a45f569, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}  and args = [[TestResult name=setUp status=STARTED method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa] output={null}], BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa]]
+12:37:21.305 [LocalTest-1@1] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[{hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.303175400, hook_id=b1761033-814f-4532-a218-39903a45f569, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]} , hooks finished={BEFORE_METHOD=[]}
+12:37:21.360 [LocalTest-0@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@89357fd, response=success: true
+
+12:37:21.373 [LocalTest-2@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@51d06aef, response=success: true
+
+12:37:21.374 [LocalTest-1@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@172d2403, response=success: true
+
+12:37:21.959 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=-1786923824
+12:37:21.959 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+12:37:21.988 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@19ab596e, response=success: true
+
+12:37:21.988 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@19ab596e
+12:37:22.013 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=-1786923824
+12:37:22.014 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+12:37:22.024 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@3cdd977f, response=success: true
+
+12:37:22.025 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@3cdd977f
+12:37:22.049 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=-1786923824
+12:37:22.049 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+12:37:22.065 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@b790323, response=success: true
+
+12:37:22.065 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@b790323
+12:37:22.237 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=-1786923824
+12:37:22.238 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+12:37:22.248 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@392c84a8, response=success: true
+
+12:37:22.248 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@392c84a8
+12:37:30.177 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+12:37:30.177 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+12:37:30.177 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+12:37:30.180 [setUp@2] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=-829620641 target=21996:40 instances=[-829620641]
+12:37:30.181 [setUp@0] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=-829620664 target=21996:38 instances=[-829620641, -829620664]
+12:37:30.180 [setUp@1] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=-829620663 target=21996:39 instances=[-829620641]
+12:37:30.181 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@7e0f2500
+12:37:30.181 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@2c34c0be
+12:37:30.181 [setUp@1] WARN  c.b.v2.framework.SeleniumFramework - trackEvent: unable to find instance, automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.PRE args={hook=PRE, frameworkState=CREATE, command=org.openqa.selenium.remote.TracedCommandExecutor@1bbc46ad, caps=Capabilities {bstack:options: {source: java-selenium:sample-main:v1.0}}}
+12:37:30.213 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@7e0f2500
+12:37:30.219 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@2c34c0be
+12:37:30.247 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - Optimal hub url from cli. https://hub-aps.browserstack.com/wd/hub
+12:37:30.256 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+12:37:30.326 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - Optimal hub url from cli. https://hub-aps.browserstack.com/wd/hub
+12:37:30.326 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+12:37:30.345 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - Optimal hub url from cli. https://hub-aps.browserstack.com/wd/hub
+12:37:30.346 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+12:37:30.431 [setUp@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@748bec9c
+12:37:30.431 [setUp@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@748bec9c
+12:37:30.431 [setUp@0] INFO  c.b.v2.module.AccessibilityModule - onBeforeExecute: event=com.browserstack.v2.eventBus.Event@748bec9c
+12:37:30.437 [setUp@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@34f50652
+12:37:30.437 [setUp@2] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@34f50652
+12:37:30.437 [setUp@2] INFO  c.b.v2.module.AccessibilityModule - onBeforeExecute: event=com.browserstack.v2.eventBus.Event@34f50652
+12:37:30.425 [setUp@1] WARN  c.b.v2.framework.SeleniumFramework - trackEvent: unable to find instance, automationFrameworkState=AutomationFrameworkState.EXECUTE hookState=HookState.PRE args={hook=PRE, frameworkState=EXECUTE, arguments=[Ljava.lang.Object;@21a3b045, command=[null, newSession {capabilities=[Capabilities {}], desiredCapabilities=Capabilities {}}]}
+12:37:30.840 [setUp@0] INFO  c.b.v2.module.AccessibilityModule - [platform - 0] Accessibility Config={test_run_id=1121041, scannerProcessingTimeout=, accessibilityToken=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAxNTQ3OSwidGVzdF9ydW5faWQiOjExMjEwNDEsImExMXlfY29yZV9jb25maWciOnsiZGlzYWJsZV9hMTF5X2VuZ2luZV9jb25maWciOmZhbHNlLCJkaXNhYmxlX2ExMXlfZW5naW5lX2V4cGVyaW1lbnRhbF9ydWxlcyI6dHJ1ZSwiZG9tRm9yZ2UiOmZhbHNlLCJleGNsdWRlX3J1bGVzIjpbXSwiYWR2YW5jZWQiOmZhbHNlLCJhaSI6ZmFsc2UsImNvbG9yQ29udHJhc3RBSSI6ZmFsc2UsInVzZUV4dEN0eCI6ZmFsc2UsInJ1blR5cGVBT3B0IjpmYWxzZSwiYWxsb3dDcm9zc09yaWdpbklmcmFtZSI6ZmFsc2UsImVuYWJsZUN5cHJlc3NTUEEiOmZhbHNlfSwic2Nhbm5lcl92ZXJzaW9uIjoiNC4xNi4wLjAiLCJhZHZhbmNlZF9zY2FuX3RpbWVvdXQiOjE1LCJyY3QiOjI1LCJncm91cF9pZCI6OTkyNDg4NywiYXV0b21hdGlvbiI6dHJ1ZSwicnVubmVyIjoiQVVUIiwib3B0aW1pemF0aW9uIjp0cnVlLCJzY29yZSI6dHJ1ZSwicXVlcnlfcGFyYW1zIjpmYWxzZSwic2NvcGVfa2V5IjoxMTIxMDQxLCJwcmlvcml0aXplZCI6ZmFsc2UsImdycl96b25lIjoiIiwid2luMTM3Zml4IjpmYWxzZSwidXJsX2NvdW50IjowLCJjb25zb2xpZGF0ZV9ydWxlcyI6dHJ1ZSwiZXhwIjoxNzU3NjYwODA2fQ.Gx6x7XNIH6_KhlGi4pR87Ygo98F-28tsKKL2w-_FM3I, scannerVersion=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.16.0.0.zip?Expires=1757660806&Signature=nInL2iJ1k-PnI5EThx~D-WnZ4FsnHbyDVyhI4ZCdMYcxje68M2erfSfj8cluHTFbcCdapeWrD0zeBOeE4qaN-gn4hAP4eRnVvfyfbwmuBSyx57VvPfdQXATj74y5K~P6DLU8PZ-6XhNM-9Ziw07d94GGGeX13EahbZdOeXHHdM89OFrod2GuYu6oRX~YLJGvzfsWzifQrarBA7TINt8kXOFXNsF0TUt1TpDp-Vcr3pNxfzAb9TryRewen5flIB0L5vV5IIONKu49pduIHkdQu9XMDk4AdEYSG6RT7jbQY1QafnSp-A3RtiOh-WVGzdHNWwi2UmRIDwr3d2qYUcsoXA__&Key-Pair-Id=KF2675ZED12I3, testhub_build_uuid=dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k} loaded for Web Accessibility
+12:37:31.987 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Authorization required
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:146)
+	at com.browserstack.BrowserStackRemoteTest.setUp(BrowserStackRemoteTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Authorization required
+	at org.openqa.selenium.json.Json.toType(Json.java:57)
+	at org.openqa.selenium.json.Json.toType(Json.java:50)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:109)
+	... 35 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: A. Last 1 characters read: A
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'ASHIV', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:126)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:141)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:127)
+	at org.openqa.selenium.json.Json.toType(Json.java:71)
+	at org.openqa.selenium.json.Json.toType(Json.java:55)
+	... 37 more
+
+12:37:31.987 [setUp@1] WARN  c.b.v2.framework.SeleniumFramework - trackEvent: unable to find instance, automationFrameworkState=AutomationFrameworkState.EXECUTE hookState=HookState.POST args={exception=org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Authorization required, hook=POST, frameworkState=EXECUTE, arguments=[Ljava.lang.Object;@620dd2ab, command=[null, newSession {capabilities=[Capabilities {}], desiredCapabilities=Capabilities {}}]}
+12:37:31.990 [setUp@1] INFO  c.b.v2.framework.AutomationFramework - Cannot get state instance is null
+12:37:31.990 [setUp@1] INFO  c.b.v2.framework.AutomationFramework - Cannot set state instance is null
+12:37:31.990 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 39 list {}
+12:37:31.994 [setUp@1] WARN  c.b.v2.framework.SeleniumFramework - trackEvent: unable to find instance, automationFrameworkState=AutomationFrameworkState.QUIT hookState=HookState.PRE args={hook=PRE, frameworkState=QUIT}
+12:37:31.994 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 39 list {}
+12:37:32.067 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=-1786922862
+12:37:32.069 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=-1786922862
+12:37:32.069 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:32.089 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:32.106 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=FAILURE method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa] output={null}]
+12:37:32.106 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.303175400, hook_id=b1761033-814f-4532-a218-39903a45f569, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}] and args = [[TestResult name=setUp status=FAILURE method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa] output={null}], BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa]]
+12:37:32.106 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-39\HookLevel
+12:37:32.106 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+12:37:32.108 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = C:\Users\ashiv\.browserstack\UploadedAttachments-39\HookLevel\BuildLevelHookEvent and abs path = C:\Users\ashiv\.browserstack\UploadedAttachments-39\HookLevel\BuildLevelHookEvent 
+12:37:32.108 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-39\HookLevel\BuildLevelHookEvent
+12:37:32.108 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+12:37:32.108 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+12:37:32.109 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=failed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.303175400, hook_id=b1761033-814f-4532-a218-39903a45f569, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:32.106869200, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]}
+12:37:32.124 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@373bc0b8, response=success: true
+
+12:37:32.245 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=-1786922862
+12:37:32.249 [setUp@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:32.267 [setUp@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=-1786922862
+12:37:32.267 [setUp@1] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@7420506b
+12:37:32.267 [setUp@1] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@7420506b
+12:37:32.267 [setUp@1] INFO  c.b.v2.module.TestHubModule - onAfterTest: event={com.browserstack.v2.eventBus.Event@7420506b}
+12:37:32.354 [setUp@1] INFO  c.b.v2.framework.AutomationFramework - Cannot get state instance is null
+12:37:32.396 [setUp@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@7420506b, response=success: true
+
+12:37:32.417 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@586d3343, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@586d3343, autoInstance=[null], hookState=HookState.PRE}
+12:37:32.417 [setUp@1] INFO  c.b.v2.module.ObservabilityModule - Automation instance is null
+12:37:32.417 [setUp@1] INFO  c.b.v2.module.AccessibilityModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@7420506b
+12:37:32.417 [setUp@1] INFO  c.b.v2.framework.AutomationFramework - Cannot get state instance is null
+12:37:32.417 [setUp@1] INFO  c.b.v2.framework.AutomationFramework - Cannot get state instance is null
+12:37:32.420 [test@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=-1786922862
+12:37:32.420 [test@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=-1786922862
+12:37:32.420 [test@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+12:37:32.424 [test@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=-1786922862
+12:37:32.424 [test@1] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@945c36c
+12:37:32.425 [test@1] ERROR c.b.v2.eventBus.EventDispatcher - notifyModuleObservers: Unable to call observers for hookRegistry=TestFrameworkState.TEST:HookState.POST. Exception=java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.AutomationFrameworkInstance.getData()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null
+	at com.browserstack.v2.module.WebdriverModule.onAfterTest(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.TestFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.TestNgFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.TestNgFramework.trackEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onTestSkipped(Unknown Source)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:87)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:447)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:545)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+12:37:32.425 [test@1] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@945c36c
+12:37:32.425 [test@1] ERROR c.b.v2.eventBus.EventDispatcher - notifyModuleObservers: Unable to call observers for hookRegistry=TestFrameworkState.TEST:HookState.POST. Exception=java.lang.NullPointerException: Cannot invoke "com.browserstack.v2.instance.AutomationFrameworkInstance.getData()" because the return value of "com.browserstack.v2.framework.AutomationFramework.getTrackedInstance()" is null
+	at com.browserstack.v2.module.WebdriverModule.onAfterTest(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.TestFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.TestNgFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.TestNgFramework.trackEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onTestSkipped(Unknown Source)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:87)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeListenersForSkippedTestResult(TestInvoker.java:447)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:545)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+12:37:32.441 [test@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@945c36c, response=success: true
+
+12:37:32.457 [test@1] INFO  c.b.v2.module.AccessibilityModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@945c36c
+12:37:32.457 [test@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.PRE instance=-1786922862
+12:37:32.457 [test@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:32.463 [test@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:32.479 [test@1] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=STARTED method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa] output={null}]
+12:37:32.480 [test@1] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_METHOD & hook = {hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:32.480296400, hook_id=0c510361-c26d-45d6-bda8-d1b796953c30, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}  and args = [[TestResult name=tearDown status=STARTED method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa] output={null}], BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa]]
+12:37:32.480 [test@1] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[{hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:32.480296400, hook_id=0c510361-c26d-45d6-bda8-d1b796953c30, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=failed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.303175400, hook_id=b1761033-814f-4532-a218-39903a45f569, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:32.106869200, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}], AFTER_METHOD=[]}
+12:37:32.493 [test@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@298a503d, response=success: true
+
+12:37:32.510 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.POST instance=-1786922862
+12:37:32.510 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:32.513 [tearDown@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:32.524 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=FAILURE method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa] output={null}]
+12:37:32.524 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:32.480296400, hook_id=0c510361-c26d-45d6-bda8-d1b796953c30, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}] and args = [[TestResult name=tearDown status=FAILURE method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa] output={null}], BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@48a0c8aa]]
+12:37:32.524 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-39\HookLevel
+12:37:32.524 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+12:37:32.525 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = C:\Users\ashiv\.browserstack\UploadedAttachments-39\HookLevel\BuildLevelHookEvent and abs path = C:\Users\ashiv\.browserstack\UploadedAttachments-39\HookLevel\BuildLevelHookEvent 
+12:37:32.525 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-39\HookLevel\BuildLevelHookEvent
+12:37:32.525 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+12:37:32.525 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+12:37:32.525 [tearDown@1] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=failed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.303175400, hook_id=b1761033-814f-4532-a218-39903a45f569, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:32.106869200, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}], AFTER_METHOD=[{hook_name=tearDown, hook_result=failed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:32.480296400, hook_id=0c510361-c26d-45d6-bda8-d1b796953c30, hook_logs=[], logs=[], key=AFTER_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:32.524432800, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]}
+12:37:32.535 [tearDown@1] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@51f3699b, response=success: true
+
+12:37:32.957 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: Error while performing execute command with error org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:585)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:146)
+	at com.browserstack.BrowserStackRemoteTest.setUp(BrowserStackRemoteTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.WebDriverException: The property '#/firstMatch/0/bstack:options' contains additional properties ["device"] outside of the schema when none are allowed in the payload.
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'ASHIV', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+remote stacktrace: 
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:133)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:135)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	... 31 more
+
+12:37:32.958 [setUp@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1b4a267e
+12:37:32.958 [setUp@2] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1b4a267e
+12:37:32.958 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 40
+12:37:32.958 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-40\TestLevel
+12:37:32.959 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-40\BuildLevel
+12:37:32.959 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+12:37:32.960 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+12:37:32.979 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 40 list {}
+12:37:32.980 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@a6dd447
+12:37:33.002 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@a6dd447
+12:37:33.034 [setUp@2] INFO  c.b.v2.module.AccessibilityModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@a6dd447
+12:37:33.034 [setUp@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 40 list {}
+12:37:33.054 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=-1786921900
+12:37:33.054 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=-1786921900
+12:37:33.054 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:33.057 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:33.075 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=FAILURE method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e] output={null}]
+12:37:33.075 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.258001700, hook_id=aa31b0b5-c132-4075-ace9-8552aecc65ac, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}] and args = [[TestResult name=setUp status=FAILURE method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e] output={null}], BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e]]
+12:37:33.075 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-40\HookLevel
+12:37:33.075 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+12:37:33.076 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = C:\Users\ashiv\.browserstack\UploadedAttachments-40\HookLevel\BuildLevelHookEvent and abs path = C:\Users\ashiv\.browserstack\UploadedAttachments-40\HookLevel\BuildLevelHookEvent 
+12:37:33.076 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-40\HookLevel\BuildLevelHookEvent
+12:37:33.076 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+12:37:33.077 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+12:37:33.077 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=failed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.258001700, hook_id=aa31b0b5-c132-4075-ace9-8552aecc65ac, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:33.075682800, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]}
+12:37:33.086 [setUp@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@45a45fb0, response=success: true
+
+12:37:33.122 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=-1786921900
+12:37:33.124 [setUp@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:33.141 [setUp@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=-1786921900
+12:37:33.143 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@76ad390d
+12:37:33.143 [setUp@2] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@76ad390d
+12:37:33.143 [setUp@2] INFO  c.b.v2.module.TestHubModule - onAfterTest: event={com.browserstack.v2.eventBus.Event@76ad390d}
+12:37:33.155 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 39 list {}
+12:37:33.177 [setUp@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@76ad390d, response=success: true
+
+12:37:33.195 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@42ea1db9, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@42ea1db9, autoInstance=[com.browserstack.v2.instance.AutomationFrameworkInstance@3667686a], hookState=HookState.PRE}
+12:37:33.195 [setUp@2] INFO  c.b.v2.module.ObservabilityModule - performTestReportingSync: Performing TEST REPORTING AND ANALYTICS Sync
+12:37:33.195 [setUp@2] INFO  c.b.v2.module.AccessibilityModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@76ad390d
+12:37:33.195 [test@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=-1786921900
+12:37:33.197 [test@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=-1786921900
+12:37:33.197 [test@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+12:37:33.197 [test@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=-1786921900
+12:37:33.198 [test@2] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@2c57ceb9
+12:37:33.198 [test@2] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 
+12:37:34.327 [test@2] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid 
+12:37:34.327 [test@2] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 
+12:37:34.718 [test@2] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@2c57ceb9
+12:37:34.718 [test@2] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 
+12:37:35.099 [test@2] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid 
+12:37:35.099 [test@2] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 
+12:37:35.450 [test@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@2c57ceb9, response=success: true
+
+12:37:35.466 [test@2] INFO  c.b.v2.module.AccessibilityModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@2c57ceb9
+12:37:35.468 [test@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.PRE instance=-1786921900
+12:37:35.468 [test@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:35.469 [test@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:35.483 [test@2] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=STARTED method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e] output={null}]
+12:37:35.484 [test@2] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_METHOD & hook = {hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:35.484365100, hook_id=7815affa-6882-44a9-9841-d51fbf422e7a, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}  and args = [[TestResult name=tearDown status=STARTED method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e] output={null}], BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e]]
+12:37:35.484 [test@2] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[{hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:35.484365100, hook_id=7815affa-6882-44a9-9841-d51fbf422e7a, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=failed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.258001700, hook_id=aa31b0b5-c132-4075-ace9-8552aecc65ac, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:33.075682800, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}], AFTER_METHOD=[]}
+12:37:35.491 [test@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@74214615, response=success: true
+
+12:37:35.514 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.POST instance=-1786921900
+12:37:35.514 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:35.515 [tearDown@2] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:35.524 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=FAILURE method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e] output={null}]
+12:37:35.524 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:35.484365100, hook_id=7815affa-6882-44a9-9841-d51fbf422e7a, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}] and args = [[TestResult name=tearDown status=FAILURE method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e] output={null}], BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@2975a9e]]
+12:37:35.524 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-40\HookLevel
+12:37:35.524 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+12:37:35.524 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = C:\Users\ashiv\.browserstack\UploadedAttachments-40\HookLevel\BuildLevelHookEvent and abs path = C:\Users\ashiv\.browserstack\UploadedAttachments-40\HookLevel\BuildLevelHookEvent 
+12:37:35.525 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-40\HookLevel\BuildLevelHookEvent
+12:37:35.525 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+12:37:35.525 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+12:37:35.525 [tearDown@2] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=failed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.258001700, hook_id=aa31b0b5-c132-4075-ace9-8552aecc65ac, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:33.075682800, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}], AFTER_METHOD=[{hook_name=tearDown, hook_result=failed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:35.484365100, hook_id=7815affa-6882-44a9-9841-d51fbf422e7a, hook_logs=[], logs=[], key=AFTER_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:35.524932200, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]}
+12:37:35.534 [tearDown@2] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@1208aac7, response=success: true
+
+12:37:35.945 [tearDown@2] INFO  c.b.utils.BrowserStackDriverMap - thread id: 40 list {}
+12:37:36.475 [setUp@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@158d6d9e
+12:37:36.475 [setUp@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@158d6d9e
+12:37:36.475 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 38
+12:37:36.476 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\TestLevel
+12:37:36.476 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\BuildLevel
+12:37:36.476 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+12:37:36.476 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+12:37:36.510 [setUp@0] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=-829620664 target=21996:38 instances=[-829620641, -829620664]
+12:37:36.511 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@63074c54
+12:37:36.511 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.511 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Found session id=d8860f1ed71c54b15e08cea35d0f9b70a416b233 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@593c8ac9
+12:37:36.514 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.515 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+12:37:36.531 [setUp@0] ERROR c.b.v2.module.WebdriverModule - Error AutomationFrameworkStart to start driver with error java.lang.ClassCastException: class java.lang.Object cannot be cast to class browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse (java.lang.Object is in module java.base of loader 'bootstrap'; browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse is in unnamed module of loader 'app')
+	at com.browserstack.v2.module.WebdriverModule.startDriver(Unknown Source)
+	at com.browserstack.v2.module.WebdriverModule.onDriverCreated(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.persistDriverInstance(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.afterDriverInit(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:146)
+	at com.browserstack.BrowserStackRemoteTest.setUp(BrowserStackRemoteTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+12:37:36.532 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@63074c54
+12:37:36.533 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.533 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Found session id=d8860f1ed71c54b15e08cea35d0f9b70a416b233 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@593c8ac9
+12:37:36.533 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.534 [setUp@0] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+12:37:36.534 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.562 [setUp@0] INFO  c.b.v2.module.AccessibilityModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@63074c54
+12:37:36.577 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=-1786923824
+12:37:36.577 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_METHOD hookState=HookState.POST instance=-1786923824
+12:37:36.577 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:36.578 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:36.594 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=SUCCESS method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8] output={null}]
+12:37:36.594 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.294653300, hook_id=f0ad5139-aa50-4c91-9348-fd0ca502daff, hook_logs=[], key=BEFORE_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}] and args = [[TestResult name=setUp status=SUCCESS method=BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8] output={null}], BrowserStackRemoteTest.setUp()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8]]
+12:37:36.594 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\HookLevel
+12:37:36.594 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+12:37:36.595 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = C:\Users\ashiv\.browserstack\UploadedAttachments-38\HookLevel\BuildLevelHookEvent and abs path = C:\Users\ashiv\.browserstack\UploadedAttachments-38\HookLevel\BuildLevelHookEvent 
+12:37:36.595 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\HookLevel\BuildLevelHookEvent
+12:37:36.595 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+12:37:36.595 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+12:37:36.595 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.294653300, hook_id=f0ad5139-aa50-4c91-9348-fd0ca502daff, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:36.594609, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]}
+12:37:36.604 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@9770e28, response=success: true
+
+12:37:36.655 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=-1786923824
+12:37:36.656 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:36.667 [setUp@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=-1786923824
+12:37:36.667 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@c681979
+12:37:36.668 [setUp@0] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@c681979
+12:37:36.668 [setUp@0] INFO  c.b.v2.module.TestHubModule - onAfterTest: event={com.browserstack.v2.eventBus.Event@c681979}
+12:37:36.668 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.678 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.697 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestSessionEvent: event=com.browserstack.v2.eventBus.Event@c681979, response=success: true
+
+12:37:36.721 [setUp@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@c681979, response=success: true
+
+12:37:36.737 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@1b94c847, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@1b94c847, autoInstance=[com.browserstack.v2.instance.AutomationFrameworkInstance@593c8ac9], hookState=HookState.PRE}
+12:37:36.737 [setUp@0] INFO  c.b.v2.module.ObservabilityModule - performTestReportingSync: Performing TEST REPORTING AND ANALYTICS Sync
+12:37:36.738 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.738 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.738 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.739 [Forwarding executeScript on session d8860f1ed71c54b15e08cea35d0f9b70a416b233 to remote] DEBUG c.browserstack.utils.UtilityMethods - Optimal hub url from cli. https://hub-aps.browserstack.com/wd/hub
+12:37:36.822 [setUp@0] INFO  c.b.v2.module.AccessibilityModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@c681979
+12:37:36.824 [setUp@0] INFO  c.b.v2.module.AccessibilityModule - test-tags--> {userName=mohdashiv_FISCVG, accessKey=xt6x1pfGPbCASvnnxDwn, buildName=browserstack-build-1, projectName=BrowserStack Samples, framework=testng, platforms=[{os=OS X, osVersion=Big Sur, browserName=Chrome, browserVersion=latest}, {os=Windows, osVersion=10, browserName=Edge, browserVersion=latest}, {device=Samsung Galaxy S22 Ultra, browserName=chrome, osVersion=12, deviceName=Samsung Galaxy S22 Ultra}], parallelsPerPlatform=1, browserstackLocal=true, debug=false, networkLogs=false, consoleLogs=errors, testObservability=true, accessibility=true, browserstackAutomation=true, selfHeal=false, disableAutoCaptureLogs=false, testhub=true, testContextOptions={skipSessionStatus=false, skipSessionName=false}, logDir=C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main\log, buildIdentifier=#${BUILD_NUMBER}, browserStackLocalOptions={localIdentifier=Sep_10_1236_Ashiv_1l1t, key=xt6x1pfGPbCASvnnxDwn, skipBinaryInitialisation=false}, testOrchestrationOptions={retryTestsOnFailure={}, abortBuildOnFailure={}}, apis={automate={hub=https://hub.browserstack.com, cdp=https://cdp.browserstack.com, api=https://api.browserstack.com, upload=https://api-cloud.browserstack.com}, appAutomate={hub=https://hub.browserstack.com, api=https://api.browserstack.com, upload=https://api-cloud.browserstack.com}, percy={api=https://api.browserstack.com}, turboScale={api=https://grid.browserstack.com}, accessibility={api=https://accessibility.browserstack.com}, appAccessibility={api=https://app-accessibility.browserstack.com}, observability={api=https://collector-observability.browserstack.com, upload=https://upload-observability.browserstack.com}, configServer={api=https://sdk.browserstack.com}, edsInstrumentation={api=https://eds.browserstack.com}, tcg={api=https://tcg.browserstack.com}}, hubUrl=https://hub-aps.browserstack.com/wd/hub, proxySettings={}} 38 [] null
+12:37:36.824 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.825 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:36.826 [test@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@5497ef2e
+12:37:36.826 [test@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@5497ef2e
+12:37:36.826 [test@0] INFO  c.b.v2.module.AccessibilityModule - onBeforeExecute: event=com.browserstack.v2.eventBus.Event@5497ef2e
+12:37:36.826 [test@0] ERROR c.b.v2.eventBus.EventDispatcher - notifyModuleObservers: Unable to call observers for hookRegistry=AutomationFrameworkState.EXECUTE:HookState.PRE. Exception=java.lang.NullPointerException: Cannot invoke "browserstack.shaded.org.json.simple.JSONArray.iterator()" because the return value of "com.browserstack.accessibility.Scripts.getCommandsToWrap()" is null
+	at com.browserstack.v2.module.AccessibilityModule.shouldScanForCommand(Unknown Source)
+	at com.browserstack.v2.module.AccessibilityModule.onBeforeExecute(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
+	at com.browserstack.BStackLocalTest.test(BStackLocalTest.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+12:37:45.504 [test@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@17a09f4f
+12:37:45.504 [test@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@17a09f4f
+12:37:45.504 [test@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 38
+12:37:45.505 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\TestLevel
+12:37:45.505 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\BuildLevel
+12:37:45.505 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+12:37:45.506 [test@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+12:37:45.534 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:45.535 [test@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2ce8aaa0
+12:37:45.535 [test@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2ce8aaa0
+12:37:45.535 [test@0] INFO  c.b.v2.module.AccessibilityModule - onBeforeExecute: event=com.browserstack.v2.eventBus.Event@2ce8aaa0
+12:37:45.535 [test@0] ERROR c.b.v2.eventBus.EventDispatcher - notifyModuleObservers: Unable to call observers for hookRegistry=AutomationFrameworkState.EXECUTE:HookState.PRE. Exception=java.lang.NullPointerException: Cannot invoke "browserstack.shaded.org.json.simple.JSONArray.iterator()" because the return value of "com.browserstack.accessibility.Scripts.getCommandsToWrap()" is null
+	at com.browserstack.v2.module.AccessibilityModule.shouldScanForCommand(Unknown Source)
+	at com.browserstack.v2.module.AccessibilityModule.onBeforeExecute(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:335)
+	at com.browserstack.BStackLocalTest.test(BStackLocalTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+12:37:45.536 [test@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@23506514
+12:37:45.536 [test@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@23506514
+12:37:45.536 [test@0] INFO  c.b.v2.module.AccessibilityModule - onBeforeExecute: event=com.browserstack.v2.eventBus.Event@23506514
+12:37:45.536 [test@0] ERROR c.b.v2.eventBus.EventDispatcher - notifyModuleObservers: Unable to call observers for hookRegistry=AutomationFrameworkState.EXECUTE:HookState.PRE. Exception=java.lang.NullPointerException: Cannot invoke "browserstack.shaded.org.json.simple.JSONArray.iterator()" because the return value of "com.browserstack.accessibility.Scripts.getCommandsToWrap()" is null
+	at com.browserstack.v2.module.AccessibilityModule.shouldScanForCommand(Unknown Source)
+	at com.browserstack.v2.module.AccessibilityModule.onBeforeExecute(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:335)
+	at com.browserstack.BStackLocalTest.test(BStackLocalTest.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+12:37:45.616 [test@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4a89ecb9
+12:37:45.616 [test@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4a89ecb9
+12:37:45.616 [test@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 38
+12:37:45.617 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\TestLevel
+12:37:45.617 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\BuildLevel
+12:37:45.617 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+12:37:45.617 [test@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+12:37:45.638 [test@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@14c85229
+12:37:45.638 [test@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@14c85229
+12:37:45.638 [test@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 38
+12:37:45.639 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\TestLevel
+12:37:45.639 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\BuildLevel
+12:37:45.639 [test@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+12:37:45.639 [test@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+12:37:45.670 [test@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=-1786923824
+12:37:45.670 [test@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=-1786923824
+12:37:45.670 [test@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+12:37:45.672 [test@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=-1786923824
+12:37:45.674 [test@0] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@34a230b9
+12:37:45.674 [test@0] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: d8860f1ed71c54b15e08cea35d0f9b70a416b233
+12:37:46.054 [test@0] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid d8860f1ed71c54b15e08cea35d0f9b70a416b233
+12:37:46.054 [test@0] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: d8860f1ed71c54b15e08cea35d0f9b70a416b233
+12:37:46.547 [test@0] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@34a230b9
+12:37:46.547 [test@0] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: d8860f1ed71c54b15e08cea35d0f9b70a416b233
+12:37:46.996 [test@0] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid d8860f1ed71c54b15e08cea35d0f9b70a416b233
+12:37:46.996 [test@0] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: d8860f1ed71c54b15e08cea35d0f9b70a416b233
+12:37:47.473 [test@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@34a230b9, response=success: true
+
+12:37:47.499 [test@0] INFO  c.b.v2.module.AccessibilityModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@34a230b9
+12:37:47.499 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:47.519 [test@0] INFO  c.b.accessibility.AccessibilityUtils - performScanForCli: will start to scan for accessibility
+12:37:47.520 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:47.521 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:47.522 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:47.522 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:49.557 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:49.557 [test@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.278 [test@0] INFO  c.b.accessibility.AccessibilityUtils - Accessibility testing for this test case has ended from cli.
+12:37:51.279 [test@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.PRE instance=-1786923824
+12:37:51.279 [test@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:51.282 [test@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:51.294 [test@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=STARTED method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8] output={null}]
+12:37:51.294 [test@0] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_METHOD & hook = {hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:51.294007100, hook_id=aa171271-6850-4021-8a79-751ca390ded4, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}  and args = [[TestResult name=tearDown status=STARTED method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8] output={null}], BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8]]
+12:37:51.294 [test@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.PRE , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[{hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:51.294007100, hook_id=aa171271-6850-4021-8a79-751ca390ded4, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.294653300, hook_id=f0ad5139-aa50-4c91-9348-fd0ca502daff, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:36.594609, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}], AFTER_METHOD=[]}
+12:37:51.300 [test@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@45d58314, response=success: true
+
+12:37:51.321 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.321 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.321 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@6a3acc62
+12:37:51.357 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@6a3acc62
+12:37:51.357 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.391 [tearDown@0] INFO  c.b.v2.module.AccessibilityModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@6a3acc62
+12:37:51.391 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.397 [tearDown@0] INFO  c.b.accessibility.AccessibilityUtils - performScanForCli: will start to scan for accessibility
+12:37:51.397 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.397 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.397 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.397 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.550 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.551 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.975 [tearDown@0] INFO  c.b.accessibility.AccessibilityUtils - Accessibility testing for this test case has ended from cli.
+12:37:51.975 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:51.989 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2ad6edcd
+12:37:51.989 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2ad6edcd
+12:37:51.989 [tearDown@0] INFO  c.b.v2.module.AccessibilityModule - onBeforeExecute: event=com.browserstack.v2.eventBus.Event@2ad6edcd
+12:37:51.989 [tearDown@0] ERROR c.b.v2.eventBus.EventDispatcher - notifyModuleObservers: Unable to call observers for hookRegistry=AutomationFrameworkState.EXECUTE:HookState.PRE. Exception=java.lang.NullPointerException: Cannot invoke "browserstack.shaded.org.json.simple.JSONArray.iterator()" because the return value of "com.browserstack.accessibility.Scripts.getCommandsToWrap()" is null
+	at com.browserstack.v2.module.AccessibilityModule.shouldScanForCommand(Unknown Source)
+	at com.browserstack.v2.module.AccessibilityModule.onBeforeExecute(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:463)
+	at com.browserstack.BrowserStackRemoteTest.tearDown(BrowserStackRemoteTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+12:37:51.989 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@5833b86f
+12:37:51.989 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@5833b86f
+12:37:51.989 [tearDown@0] INFO  c.b.v2.module.AccessibilityModule - onBeforeExecute: event=com.browserstack.v2.eventBus.Event@5833b86f
+12:37:51.991 [tearDown@0] ERROR c.b.v2.eventBus.EventDispatcher - notifyModuleObservers: Unable to call observers for hookRegistry=AutomationFrameworkState.EXECUTE:HookState.PRE. Exception=java.lang.NullPointerException: Cannot invoke "browserstack.shaded.org.json.simple.JSONArray.iterator()" because the return value of "com.browserstack.accessibility.Scripts.getCommandsToWrap()" is null
+	at com.browserstack.v2.module.AccessibilityModule.shouldScanForCommand(Unknown Source)
+	at com.browserstack.v2.module.AccessibilityModule.onBeforeExecute(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:463)
+	at com.browserstack.BrowserStackRemoteTest.tearDown(BrowserStackRemoteTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+12:37:53.915 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@182ea5d3
+12:37:53.915 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@182ea5d3
+12:37:53.915 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 38
+12:37:53.915 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\TestLevel
+12:37:53.916 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\BuildLevel
+12:37:53.916 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+12:37:53.916 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+12:37:53.975 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3146b7b6
+12:37:53.975 [tearDown@0] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@3146b7b6
+12:37:53.975 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 38
+12:37:53.976 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\TestLevel
+12:37:53.977 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\BuildLevel
+12:37:53.977 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+12:37:53.977 [tearDown@0] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+12:37:54.014 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_METHOD hookState=HookState.POST instance=-1786923824
+12:37:54.014 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+12:37:54.015 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main, TestClass :: com\browserstack\BStackLocalTest
+12:37:54.035 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=tearDown status=SUCCESS method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8] output={null}]
+12:37:54.036 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=tearDown, hook_result=pending, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:51.294007100, hook_id=aa171271-6850-4021-8a79-751ca390ded4, hook_logs=[], key=AFTER_METHOD, custom_metadata={}, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}] and args = [[TestResult name=tearDown status=SUCCESS method=BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8] output={null}], BrowserStackRemoteTest.tearDown()[pri:0, instance:com.browserstack.BStackLocalTest@b9a77c8]]
+12:37:54.036 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\HookLevel
+12:37:54.036 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+12:37:54.037 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = C:\Users\ashiv\.browserstack\UploadedAttachments-38\HookLevel\BuildLevelHookEvent and abs path = C:\Users\ashiv\.browserstack\UploadedAttachments-38\HookLevel\BuildLevelHookEvent 
+12:37:54.037 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: C:\Users\ashiv\.browserstack\UploadedAttachments-38\HookLevel\BuildLevelHookEvent
+12:37:54.037 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+12:37:54.037 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+12:37:54.037 [tearDown@0] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_METHOD.HookState.POST , hooks started={BEFORE_METHOD=[], AFTER_METHOD=[]} , hooks finished={BEFORE_METHOD=[{hook_name=setUp, hook_result=passed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:21.294653300, hook_id=f0ad5139-aa50-4c91-9348-fd0ca502daff, hook_logs=[], logs=[], key=BEFORE_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:36.594609, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}], AFTER_METHOD=[{hook_name=tearDown, hook_result=passed, test_file_path=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java, event_started_at=2025-09-10T12:37:51.294007100, hook_id=aa171271-6850-4021-8a79-751ca390ded4, hook_logs=[], logs=[], key=AFTER_METHOD, custom_metadata={}, event_ended_at=2025-09-10T12:37:54.036899100, test_location=java-selenium-browserstack-main\src\test\java\com\browserstack\BStackLocalTest.java}]}
+12:37:54.054 [tearDown@0] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@2c1bfc88, response=success: true
+
+12:37:54.580 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 38 list {}
+12:37:54.842 [Thread-0] INFO  com.browserstack.testOps.Listener - onComplete: CLI is active
+12:37:54.877 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli stop triggered
+12:38:06.107 [Thread-0] DEBUG com.browserstack.v2.SdkCLI - stop-bin-session=success: true
+automate_buildlink: "https://automate.browserstack.com/dashboard/v2/builds/3d356385889ca9a12e82ffe3975debb94b52e289"
+hashed_id: "3d356385889ca9a12e82ffe3975debb94b52e289"
+
+12:38:06.144 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: shutting down CLI
+12:38:06.545 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main\browserstack.yml
+12:38:09.567 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - unable to delete debug log: java.nio.file.FileSystemException: C:\AAA\SeleniumFramework\SeleniumFramework\CICD\java-selenium-browserstack-main\java-selenium-browserstack-main\log\browserstack-javaagent.debug.log: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:275)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1191)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.a(Unknown Source)
+	at com.browserstack.utils.UtilityMethods.sendLogs(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+
+12:38:09.586 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+12:38:09.589 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - Visit https://automation.browserstack.com/builds/dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k to view build report, insights, and many more debugging information all at one place!
+12:38:09.589 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:38:09.589 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/3d356385889ca9a12e82ffe3975debb94b52e289
+12:38:09.589 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+12:38:09.614 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 56e19dcf-f1f2-4cac-bff5-393b9305acd7, testhub id: dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k
+12:38:09.614 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

@@ -1,0 +1,1097 @@
+2025-09-10T07:06:42.169Z CLI info [main]     Server listening on port: 5400
+2025-09-10T07:06:46.990Z CLI info     Config : {"userName":"mohdashiv_FISCVG","accessKey":"xt6x1pfGPbCASvnnxDwn","buildName":"browserstack-build-1","projectName":"BrowserStack Samples","framework":"testng","platforms":[{"os":"OS X","osVersion":"Big Sur","browserName":"Chrome","browserVersion":"latest"},{"os":"Windows","osVersion":10,"browserName":"Edge","browserVersion":"latest"},{"device":"Samsung Galaxy S22 Ultra","browserName":"chrome","osVersion":12}],"parallelsPerPlatform":1,"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-09-10T07:06:47.004Z CLI info [testhub:module]  [mohdashiv_FISCVG]   [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Starting testhub from 22128:0
+2025-09-10T07:06:47.005Z CLI info [testhub:module]  [mohdashiv_FISCVG]   [151ac489-a2a9-46ac-8b9e-015d56b93d37]  startBuild: payload=
+
+{"started_at":"2025-09-10T07:06:47.004Z","host_info":{"hostname":"Ashiv","platform":"win32","type":"Windows_NT","version":"Windows 10 Home Single Language","arch":"x64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Samples","name":"browserstack-build-1","build_identifier":"#${BUILD_NUMBER}","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.4.0","sdkVersion":"1.40.2","cliVersion":"1.6.18","language":"java","testFramework":{"name":"selenium","version":"4.1.4"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-09-10T07:06:47.006Z CLI info  [mohdashiv_FISCVG]   [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-09-10T07:06:47.958Z CLI info [testhub:module]  [mohdashiv_FISCVG]   [151ac489-a2a9-46ac-8b9e-015d56b93d37]  startBuild: response=dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k
+2025-09-10T07:06:47.961Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-09-10T07:07:07.244Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-09-10T07:07:08.007Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-09-10T07:07:08.464Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-09-10T07:07:11.240Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-09-10T07:07:21.331Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:21.294Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:21.359Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'aa31b0b5-c132-4075-ace9-8552aecc65ac',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:21.258Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:21.362Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'b1761033-814f-4532-a218-39903a45f569',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:21.303Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:21.983Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-09-10T07:07:21.961Z',
+      uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Failed to load class \\"org.slf4j.impl.StaticLoggerBinder\\"."',
+      level: 'ERROR',
+      test_run_uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff'
+    }
+  ]
+} to 22128:0
+2025-09-10T07:07:22.020Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-09-10T07:07:22.016Z',
+      uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: Defaulting to no-operation (NOP) logger implementation"',
+      level: 'ERROR',
+      test_run_uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff'
+    }
+  ]
+} to 22128:0
+2025-09-10T07:07:22.059Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-09-10T07:07:22.051Z',
+      uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff',
+      kind: 'TEST_LOG',
+      message: '"SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details."',
+      level: 'ERROR',
+      test_run_uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff'
+    }
+  ]
+} to 22128:0
+2025-09-10T07:07:22.243Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.4.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-09-10T07:07:22.238Z',
+      uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff',
+      kind: 'TEST_LOG',
+      message: '"WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance."',
+      level: 'INFO',
+      test_run_uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff'
+    }
+  ]
+} to 22128:0
+2025-09-10T07:07:22.636Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:21.294Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'aa31b0b5-c132-4075-ace9-8552aecc65ac',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:21.258Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'b1761033-814f-4532-a218-39903a45f569',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:21.303Z'
+    },
+    logs: []
+  },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] },
+  { event_type: 'LogCreated', logs: [ [Object] ] }
+] to 22128:0
+2025-09-10T07:07:22.638Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:30.238Z CLI info [accessibility:module]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  onDriverInit: 151ac489-a2a9-46ac-8b9e-015d56b93d37 platformIndex=0
+2025-09-10T07:07:30.238Z CLI info [accessibility:module]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  onDriverInit: 151ac489-a2a9-46ac-8b9e-015d56b93d37 platformIndex=0 isSupported=true
+2025-09-10T07:07:30.238Z CLI info [accessibility:module]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  onDriverInit: platformIndex=0 stored capabilities
+2025-09-10T07:07:30.246Z CLI info [accessibility:module]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  onDriverInit: 151ac489-a2a9-46ac-8b9e-015d56b93d37 platformIndex=2
+2025-09-10T07:07:30.247Z CLI info [accessibility:module]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  onDriverInit: 151ac489-a2a9-46ac-8b9e-015d56b93d37 platformIndex=2 isSupported=false
+2025-09-10T07:07:30.442Z CLI info [accessibility:service]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  AccessibilityConfig: platformIndex=0 isSupported=true platform=Chrome:latest
+2025-09-10T07:07:30.447Z CLI info [accessibility:service]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  AccessibilityConfig: platformIndex=2 isSupported=false platform=chrome:undefined
+2025-09-10T07:07:32.119Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'b1761033-814f-4532-a218-39903a45f569',
+    name: 'setUp',
+    result: 'failed',
+    test_run_id: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:21.303Z',
+    finished_at: '2025-09-10T07:07:32.106Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:32.388Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+    name: 'test',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception'
+    },
+    identifier: 'test',
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-09-10T07:07:32.267Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'LocalTest-1' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:32.437Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"LocalTest-1","test_result_at":"2025-09-10T12:37:32.421442","test_scope":"Local.com.browserstack.BStackLocalTest","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-09-10T12:37:32.267380800","platform_index":0,"test_failure":[{"backtrace":["org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Authorization required\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:112)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r","\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:146)\r","\tat com.browserstack.BrowserStackRemoteTest.setUp(BrowserStackRemoteTest.java:22)\r","\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r","\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r","\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r","\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r","\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r","\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r","\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\r","\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\r","\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\r","\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\r","\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r","\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r","\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r","\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r","\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r","\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r","\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r","\tat org.testng.TestRunner.run(TestRunner.java:596)\r","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r","\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\r","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\r","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\r","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\r","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\r","\tat java.base/java.lang.Thread.run(Thread.java:833)\r","Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Authorization required\r","\tat org.openqa.selenium.json.Json.toType(Json.java:57)\r","\tat org.openqa.selenium.json.Json.toType(Json.java:50)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:109)\r","\t... 35 more\r","Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: A. Last 1 characters read: A","Build info: version: '4.1.4', revision: '535d840ee2'","System info: host: 'ASHIV', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'","Driver info: driver.version: RemoteWebDriver\r","\tat org.openqa.selenium.json.JsonInput.peek(JsonInput.java:126)\r","\tat org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:141)\r","\tat org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:127)\r","\tat org.openqa.selenium.json.Json.toType(Json.java:71)\r","\tat org.openqa.selenium.json.Json.toType(Json.java:55)\r","\t... 37 more\r"]}],"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Local","com.browserstack.BStackLocalTest"],"test_code":"public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception","test_id":"LocalTest-1@1","test_uuid":"c9449253-28ec-42a4-918f-a9eb7240f438","test_ended_at":"2025-09-10T12:37:32.424952300","automate_session_name":"LocalTest-11","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.BStackLocalTest-test","test_hook_state":"sdk:hook:cef5e3c8","custom_metadata":{},"test_failure_reason":"org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Authorization required","test_location":"src\\test\\java\\com\\browserstack\\BStackLocalTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\com\\browserstack\\BStackLocalTest.java","test_result":"skipped","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"failed","test_file_path":"java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java","event_started_at":"2025-09-10T12:37:21.303175400","hook_id":"b1761033-814f-4532-a218-39903a45f569","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-09-10T12:37:32.106869200","test_location":"java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java"}]},"hook_id":"b1761033-814f-4532-a218-39903a45f569","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"test","test_init":true,"logs":[]}
+2025-09-10T07:07:32.438Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+    name: 'test',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception'
+    },
+    identifier: 'test',
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    meta: {},
+    result: 'skipped',
+    duration_in_ms: 157,
+    started_at: '2025-09-10T07:07:32.267Z',
+    finished_at: '2025-09-10T07:07:32.424Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Authorization required',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'LocalTest-1' },
+    hooks: [ 'b1761033-814f-4532-a218-39903a45f569' ],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:32.489Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '0c510361-c26d-45d6-bda8-d1b796953c30',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:32.480Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:32.530Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '0c510361-c26d-45d6-bda8-d1b796953c30',
+    name: 'tearDown',
+    result: 'failed',
+    test_run_id: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:32.480Z',
+    finished_at: '2025-09-10T07:07:32.524Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:32.675Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'b1761033-814f-4532-a218-39903a45f569',
+      name: 'setUp',
+      result: 'failed',
+      test_run_id: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:21.303Z',
+      finished_at: '2025-09-10T07:07:32.106Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+      name: 'test',
+      body: [Object],
+      identifier: 'test',
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-09-10T07:07:32.267Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+      name: 'test',
+      body: [Object],
+      identifier: 'test',
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      meta: {},
+      result: 'skipped',
+      duration_in_ms: 157,
+      started_at: '2025-09-10T07:07:32.267Z',
+      finished_at: '2025-09-10T07:07:32.424Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Authorization required',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '0c510361-c26d-45d6-bda8-d1b796953c30',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:32.480Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '0c510361-c26d-45d6-bda8-d1b796953c30',
+      name: 'tearDown',
+      result: 'failed',
+      test_run_id: 'c9449253-28ec-42a4-918f-a9eb7240f438',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:32.480Z',
+      finished_at: '2025-09-10T07:07:32.524Z'
+    },
+    logs: []
+  }
+] to 22128:0
+2025-09-10T07:07:32.677Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:33.084Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'aa31b0b5-c132-4075-ace9-8552aecc65ac',
+    name: 'setUp',
+    result: 'failed',
+    test_run_id: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:21.258Z',
+    finished_at: '2025-09-10T07:07:33.075Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:33.174Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+    name: 'test',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception'
+    },
+    identifier: 'test',
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-09-10T07:07:33.143Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'LocalTest-2' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:34.684Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'aa31b0b5-c132-4075-ace9-8552aecc65ac',
+      name: 'setUp',
+      result: 'failed',
+      test_run_id: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:21.258Z',
+      finished_at: '2025-09-10T07:07:33.075Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+      name: 'test',
+      body: [Object],
+      identifier: 'test',
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-09-10T07:07:33.143Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 22128:0
+2025-09-10T07:07:34.685Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:35.445Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":"UnhandledError","test_rerun_name":"LocalTest-2","test_result_at":"2025-09-10T12:37:33.197007800","test_scope":"Local.com.browserstack.BStackLocalTest","test_framework_name":"TestNG","test_tags":"","test_started_at":"2025-09-10T12:37:33.143040600","platform_index":0,"test_failure":[{"backtrace":["org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:585)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:146)\r","\tat com.browserstack.BrowserStackRemoteTest.setUp(BrowserStackRemoteTest.java:22)\r","\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r","\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r","\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r","\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r","\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r","\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r","\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)\r","\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)\r","\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)\r","\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\r","\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\r","\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\r","\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)\r","\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\r","\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\r","\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\r","\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1511)\r","\tat org.testng.TestRunner.privateRun(TestRunner.java:794)\r","\tat org.testng.TestRunner.run(TestRunner.java:596)\r","\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:377)\r","\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\r","\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)\r","\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)\r","\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\r","\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\r","\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\r","\tat java.base/java.lang.Thread.run(Thread.java:833)\r","Caused by: org.openqa.selenium.WebDriverException: The property '#/firstMatch/0/bstack:options' contains additional properties [\"device\"] outside of the schema when none are allowed in the payload.","Build info: version: '4.1.4', revision: '535d840ee2'","System info: host: 'ASHIV', ip: '192.168.1.10', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'","Driver info: driver.version: RemoteWebDriver","remote stacktrace: \r","\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r","\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r","\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r","\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r","\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r","\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:59)\r","\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$1(ProtocolHandshake.java:133)\r","\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\r","\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)\r","\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)\r","\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)\r","\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)\r","\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\r","\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r","\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r","\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:135)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r","\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r","\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r","\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)\r","\t... 31 more\r"]}],"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Local","com.browserstack.BStackLocalTest"],"test_code":"public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception","test_id":"LocalTest-2@2","test_uuid":"e59ede4a-4b93-498d-9410-4faab76df4ee","test_ended_at":"2025-09-10T12:37:33.197007800","automate_session_name":"LocalTest-22","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.BStackLocalTest-test","test_hook_state":"sdk:hook:96f2271d","custom_metadata":{},"test_failure_reason":"org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.","test_location":"src\\test\\java\\com\\browserstack\\BStackLocalTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\com\\browserstack\\BStackLocalTest.java","test_result":"skipped","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"failed","test_file_path":"java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java","event_started_at":"2025-09-10T12:37:21.258001700","hook_id":"aa31b0b5-c132-4075-ace9-8552aecc65ac","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-09-10T12:37:33.075682800","test_location":"java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java"}]},"hook_id":"aa31b0b5-c132-4075-ace9-8552aecc65ac","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"test","test_init":true,"logs":[]}
+2025-09-10T07:07:35.447Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+    name: 'test',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception'
+    },
+    identifier: 'test',
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    meta: {},
+    result: 'skipped',
+    duration_in_ms: 54,
+    started_at: '2025-09-10T07:07:33.143Z',
+    finished_at: '2025-09-10T07:07:33.197Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.',
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'LocalTest-2' },
+    hooks: [ 'aa31b0b5-c132-4075-ace9-8552aecc65ac' ],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:35.488Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '7815affa-6882-44a9-9841-d51fbf422e7a',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:35.484Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:35.529Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: '7815affa-6882-44a9-9841-d51fbf422e7a',
+    name: 'tearDown',
+    result: 'failed',
+    test_run_id: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:35.484Z',
+    finished_at: '2025-09-10T07:07:35.524Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:36.599Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_METHOD',
+    framework: 'TestNG',
+    uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:21.294Z',
+    finished_at: '2025-09-10T07:07:36.594Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:36.687Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+    integrations: { browserstack: [Object] }
+  }
+} to 22128:0
+2025-09-10T07:07:36.689Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+      name: 'test',
+      body: [Object],
+      identifier: 'test',
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      meta: {},
+      result: 'skipped',
+      duration_in_ms: 54,
+      started_at: '2025-09-10T07:07:33.143Z',
+      finished_at: '2025-09-10T07:07:33.197Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: 'org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.',
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '7815affa-6882-44a9-9841-d51fbf422e7a',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:35.484Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: '7815affa-6882-44a9-9841-d51fbf422e7a',
+      name: 'tearDown',
+      result: 'failed',
+      test_run_id: 'e59ede4a-4b93-498d-9410-4faab76df4ee',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:35.484Z',
+      finished_at: '2025-09-10T07:07:35.524Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_METHOD',
+      framework: 'TestNG',
+      uuid: 'f0ad5139-aa50-4c91-9348-fd0ca502daff',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:21.294Z',
+      finished_at: '2025-09-10T07:07:36.594Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+      integrations: [Object]
+    }
+  }
+] to 22128:0
+2025-09-10T07:07:36.690Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:36.719Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+    name: 'test',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception'
+    },
+    identifier: 'test',
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-09-10T07:07:36.667Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'LocalTest-0' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:38.689Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+      name: 'test',
+      body: [Object],
+      identifier: 'test',
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-09-10T07:07:36.667Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 22128:0
+2025-09-10T07:07:38.692Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:47.469Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  TestRunFinished: event={"test_hook_last_started":"BEFORE_METHOD","test_failure_type":null,"test_rerun_name":"LocalTest-0","test_result_at":"2025-09-10T12:37:45.670530600","test_scope":"Local.com.browserstack.BStackLocalTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-09-10T12:37:36.667386800","platform_index":0,"test_failure":null,"test_framework_version":"7.4.0","test_logs":[],"test_scopes":["Local","com.browserstack.BStackLocalTest"],"test_code":"public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception","test_id":"LocalTest-0@0","test_uuid":"7e4edd61-5db6-4654-8a79-3963e0fd1601","test_ended_at":"2025-09-10T12:37:45.674049900","automate_session_name":"LocalTest-00","test_hook_last_finished":"BEFORE_METHOD","test_session_name":"com.browserstack.BStackLocalTest-test","test_hook_state":"sdk:hook:9cb9c7b1","custom_metadata":{},"test_failure_reason":null,"test_location":"src\\test\\java\\com\\browserstack\\BStackLocalTest.java","test_hooks_started":{"BEFORE_METHOD":[]},"test_file_path":"src\\test\\java\\com\\browserstack\\BStackLocalTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_METHOD":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java","event_started_at":"2025-09-10T12:37:21.294653300","hook_id":"f0ad5139-aa50-4c91-9348-fd0ca502daff","hook_logs":[],"logs":[],"key":"BEFORE_METHOD","custom_metadata":{},"event_ended_at":"2025-09-10T12:37:36.594609","test_location":"java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java"}]},"hook_id":"f0ad5139-aa50-4c91-9348-fd0ca502daff","driver_init":true,"test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"test","test_init":true,"logs":[]}
+2025-09-10T07:07:47.471Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+    name: 'test',
+    body: {
+      lang: 'java',
+      code: 'public void com.browserstack.BStackLocalTest.test() throws java.lang.Exception'
+    },
+    identifier: 'test',
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 9007,
+    started_at: '2025-09-10T07:07:36.667Z',
+    finished_at: '2025-09-10T07:07:45.674Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'LocalTest-0' },
+    hooks: [ 'f0ad5139-aa50-4c91-9348-fd0ca502daff' ],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:48.723Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+      name: 'test',
+      body: [Object],
+      identifier: 'test',
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      scopes: [Array],
+      file_name: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 9007,
+      started_at: '2025-09-10T07:07:36.667Z',
+      finished_at: '2025-09-10T07:07:45.674Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 22128:0
+2025-09-10T07:07:48.724Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:51.299Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'aa171271-6850-4021-8a79-751ca390ded4',
+    name: 'tearDown',
+    result: 'pending',
+    test_run_id: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:51.294Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:52.734Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'aa171271-6850-4021-8a79-751ca390ded4',
+      name: 'tearDown',
+      result: 'pending',
+      test_run_id: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:51.294Z'
+    },
+    logs: []
+  }
+] to 22128:0
+2025-09-10T07:07:52.735Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:54.051Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_METHOD',
+    framework: 'TestNG',
+    uuid: 'aa171271-6850-4021-8a79-751ca390ded4',
+    name: 'tearDown',
+    result: 'passed',
+    test_run_id: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+    body: { lang: 'java', code: null },
+    scope: 'Local.com.browserstack.BStackLocalTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Local', 'com.browserstack.BStackLocalTest' ],
+    file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    vc_filepath: '',
+    location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+    started_at: '2025-09-10T07:07:51.294Z',
+    finished_at: '2025-09-10T07:07:54.036Z'
+  },
+  logs: []
+} to 22128:0
+2025-09-10T07:07:54.740Z CLI info [testhub:request-queue-handler]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_METHOD',
+      framework: 'TestNG',
+      uuid: 'aa171271-6850-4021-8a79-751ca390ded4',
+      name: 'tearDown',
+      result: 'passed',
+      test_run_id: '7e4edd61-5db6-4654-8a79-3963e0fd1601',
+      body: [Object],
+      scope: 'Local.com.browserstack.BStackLocalTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      vc_filepath: '',
+      location: 'java-selenium-browserstack-main\\src\\test\\java\\com\\browserstack\\BStackLocalTest.java',
+      started_at: '2025-09-10T07:07:51.294Z',
+      finished_at: '2025-09-10T07:07:54.036Z'
+    },
+    logs: []
+  }
+] to 22128:0
+2025-09-10T07:07:54.742Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:56.757Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-10T07:07:58.326Z CLI error [testhub:module]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [collectBuildData] Exception in collecting build data for build UUID dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k: {"message":"Build data collection started"}
+2025-09-10T07:07:58.326Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-09-10T07:07:59.606Z CLI info [testhub:module]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  stopBuild: dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k request={"finished_at":"2025-09-10T07:07:54.900Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-09-10T07:07:59.609Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-09-10T07:07:59.613Z CLI info [TEST REPORTING AND ANALYTICS:module]  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  Visit https://automation.browserstack.com/builds/dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k to view build report, insights, and many more debugging information all at one place!
+2025-09-10T07:08:02.767Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-09-10T07:08:03.199Z CLI info  [mohdashiv_FISCVG]  [dbl7dfe5gfxbbohqtnbqkucagz5cbeyibxxniu2k]  [151ac489-a2a9-46ac-8b9e-015d56b93d37]  [PRODUCTION] Making POST request to https://eds.browserstack.com
